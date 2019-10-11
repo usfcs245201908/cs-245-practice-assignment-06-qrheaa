@@ -1,9 +1,9 @@
 
 public interface Stack<T> {
 	
-	public void push(T item);
-	public T pop();
-	public T peek();
+	public void push(Object item);
+	public Object pop();
+	public Object peek();
 	public boolean empty();
 
 }
